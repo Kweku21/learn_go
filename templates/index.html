@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Comments</title>
 </head>
 
 <body>
 
-    <h1>Here we go again</h1>
-
+    <h1>Comments here</h1>
+    {{range .}}
+    <div>
+        {{.}}
+    </div>
+    {{end}}
 </body>
 
 </html>
